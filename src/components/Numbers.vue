@@ -13,7 +13,7 @@ export default {
     return {
       limit: this.$parent.limit,
       numbers: [],
-      // Created a variable that can be used by multiple functions. 
+      // Created a variable that can be used by multiple methods. 
       // This way, the same variable does not need to be created twice.
       // The variable is used to store all elements with the class name ".number".
       allNumbers: null
